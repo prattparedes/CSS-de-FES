@@ -97,3 +97,38 @@ p.blue{
     right:  0px;
     bottom: 0px;
 }
+
+#media {
+    background-color: red;
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    color: white;
+    font-size: 24px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+/* El ancho promedio breakpoint de laptops*/
+@media (max-width: 992px) {
+    #media{
+        font-size: 20px;
+    }
+}
+
+/* El ancho promedio breakpoint de tablets */
+@media (max-width: 768px) {
+    #media {
+        font-size: 18px;
+    }
+}
+
+/* El ancho promedio breakpoint de celulares */
+@media (max-width: 576px) {
+    #media {
+        font-size: 16px;
+    }
+}
