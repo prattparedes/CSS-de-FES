@@ -90,9 +90,10 @@ p.blue{
 
 .yellowbox{
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     background-color: yellow;
     border: 2px green solid;
-    top: 500px;
+    right:  0px;
+    bottom: 0px;
 }
