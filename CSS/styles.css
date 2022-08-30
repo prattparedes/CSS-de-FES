@@ -66,5 +66,33 @@ p.blue{
     height: 100%;
     min-height: 100px;
     box-sizing: border-box;
+    display: inline;
 
+}
+
+.section.div{
+    height: 20px;
+    border: #333;
+}
+
+.blackbox{
+    height: 150px;
+    border: 2px black solid;
+}
+
+.redbox {
+    height: 150px;
+    border: blue 2px solid;
+    position: relative;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+.yellowbox{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border: 2px green solid;
+    top: 500px;
 }
