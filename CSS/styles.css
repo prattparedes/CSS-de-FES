@@ -1,0 +1,18 @@
+h1{
+    background-color: #333;
+    /* rgba hace que el ultimo valor signifique opacidad en 0.3 0.5 1 0.1 */
+    color: rgba(255, 255, 255, 0.3);
+}
+
+div{
+    width: 100%;
+    max-width: 200px;
+    height: 100vw;
+    border: 1px solid black;
+    font-size: 12px;
+    font-weight: 600;
+
+    /* Se pone 2 font family o más porque si el navegador no soporta la primera fuente entonces soportará el segundo
+    generalmente sans-serif es universal todos los navegadores deberían soportarlo */
+    font-family: "Roboto"; sans-serif;
+}
